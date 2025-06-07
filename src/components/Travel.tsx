@@ -13,11 +13,10 @@ import himalaya1 from "./public/travel/himalaya1.jpg";
 import KP from "./public/travel/KP.jpg";
 
 const travelImages = [
-
   { src: kuari_pic, alt: "Kuari Pass Trek" },
   { src: netravathi, alt: "Mountain View" },
   { src: KP, alt: "Kumara parvatha" },
-    { src: bandaje, alt: "Western Ghats Trek" },
+  { src: bandaje, alt: "Western Ghats Trek" },
   { src: himlaya, alt: "Himalaya" },
   { src: himalaya1, alt: "Himalaya" },
 ];
@@ -48,6 +47,7 @@ function TravelStories() {
           slidesPerView={3}
           navigation
           breakpoints={{
+            320: { slidesPerView: 1, spaceBetween:8 } ,
             640: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
@@ -56,7 +56,7 @@ function TravelStories() {
           {travelImages.map((img, idx) => (
             <SwiperSlide key={idx} className="images-container">
               <div className="px-4">
-              <img src={img.src} alt={img.alt} className="gallery-image " />
+                <img src={img.src} alt={img.alt} className="gallery-image " />
               </div>
             </SwiperSlide>
           ))}
