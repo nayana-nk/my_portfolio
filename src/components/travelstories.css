@@ -1,0 +1,41 @@
+.travel-stories {
+  border-radius: 10px;
+}
+
+.travel-text p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.treks {
+  font-weight: bold;
+  color: #2d6a4f;
+}
+
+.travel-gallery h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #1d3557;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.images-container img {
+  width: 280px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+:root {
+  --swiper-navigation-size: 24px !important;
+
+  --swiper-theme-color: #131111 !important;
+}
+
+

@@ -1,8 +1,17 @@
 import React from 'react';
 import my_pic from "../components/public/my_pic.jpg";
-
+import bgImage from "./public/travel/Background.jpg"
+import bandaje from "./public/travel/bandaje.jpg"
 const Header = () => (
-  <div className="header-section py-1 ps-3 text-white">
+  <div     style={{
+        backgroundImage: `url(${bgImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+          minHeight:"auto",
+          height:"600px",
+
+       
+      }} className="header-section py-1 ps-3 text-white">
     <img
       src={my_pic}
       width="200px"

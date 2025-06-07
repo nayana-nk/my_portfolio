@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import logo_image from "./public/logo_image.jpg"
+
 import Experience from './Experience.tsx';
+import TravelStories from './Travel.tsx';
 
 const About = () => (
   <Container className="py-2">
@@ -18,6 +19,8 @@ const About = () => (
          
         </div>
         <Experience/>
+        
+        <TravelStories/>
       </Col>
     </Row>
   </Container>
