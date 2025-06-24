@@ -8,7 +8,7 @@ const Header = () => (
         backgroundSize: 'cover',
         backgroundPosition: 'center',
           minHeight:"auto",
-          height:"600px",
+          height:"800px",
 
        
       }} className="header-section py-1 ps-3 text-white">
